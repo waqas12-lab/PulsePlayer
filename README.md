@@ -1,4 +1,9 @@
+<p align="center">
+  <img src="icons/pulse.svg" width="128" alt="PulsePlayer Logo">
+</p>
+
 # 🎵 PulsePlayer
+Feel Every Beat. Watch Every Moment.
 
 **PulsePlayer** is a modern desktop media player built with Python, PySide6, and VLC. It delivers a clean user experience for audio and video playback, featuring playlist management, album artwork, media metadata, desktop notifications, and fullscreen playback controls.
 
