@@ -49,6 +49,24 @@
 * Improved VLC startup reliability
 
 ---
+## 📸 Screenshots
+
+### Main Window
+![Main Window](screenshots/main-window.png)
+
+### Music Playback with Album Art
+![Music Playback](screenshots/audio-playback.png)
+
+### Video Playback
+![Video Playback](screenshots/video-playback.png)
+
+### Playlist Panel
+![Playlist Panel](screenshots/playlist-panel.png)
+
+### Fullscreen Video Mode
+![Fullscreen Mode](screenshots/fullscreen-mode.png)
+
+---
 
 ## 🚀 Installation
 
