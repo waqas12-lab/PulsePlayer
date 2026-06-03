@@ -1,0 +1,140 @@
+QMainWindow, QWidget {
+    background: #f6f7fb;
+    color: #111827;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+QMenuBar, QMenu {
+    background: #ffffff;
+    color: #111827;
+}
+QPushButton {
+    background: #ffffff;
+    color: #111827;
+    border: 1px solid #d0d7e2;
+    border-radius: 8px;
+    padding: 4px 8px;
+}
+QPushButton:hover { background: #eef2f7; }
+QComboBox {
+    background: white;
+    color: #111827;
+    border: 1px solid #d0d7e2;
+    border-radius: 7px;
+    padding: 4px 8px;
+}
+QSlider::groove:horizontal {
+    height: 6px;
+    background: #dbe3ef;
+    border-radius: 3px;
+}
+QSlider::sub-page:horizontal {
+    background: #f97316;
+    border-radius: 3px;
+}
+QSlider::handle:horizontal {
+    background: #ffffff;
+    border: 1px solid #f97316;
+    width: 12px;
+    height: 12px;
+    margin: -4px 0;
+    border-radius: 6px;
+}
+#PlaylistPanel {
+    background: #ffffff;
+    border-left: 1px solid #d0d7e2;
+    padding: 6px;
+}
+#PlaylistPanel::item {
+    padding: 8px;
+    border-radius: 8px;
+    border-bottom: 1px solid #e5e7eb;
+}
+#PlaylistPanel::item:selected {
+    background: #f97316;
+    color: #111827;
+}
+
+#VideoWidget {
+    background: #f3f5f9;
+    border-radius: 14px;
+}
+#AudioArtworkOverlay {
+    background: qradialgradient(cx:0.50, cy:0.44, radius:0.75, fx:0.50, fy:0.44, stop:0 #ffffff, stop:0.55 #edf2f7, stop:1 #dbe4ef);
+    border-radius: 14px;
+}
+#AudioCover {
+    background: #ffffff;
+    color: #2563eb;
+    border: 1px solid #d0d7e2;
+    border-radius: 18px;
+    font-size: 118px;
+}
+#AudioTitle {
+    color: #0f172a;
+}
+#AudioSubtitle {
+    color: #475569;
+    font-size: 14px;
+}
+
+#PlaylistPanel { outline: none; }
+#PlaylistPanel::item {
+    background: #ffffff;
+    border: 1px solid #d6dde8;
+    border-radius: 8px;
+    margin: 3px 2px;
+}
+#PlaylistPanel::item:selected {
+    background: #dbeafe;
+    border: 1px solid #3b82f6;
+}
+#PlaylistRow { background: transparent; }
+#PlaylistCover {
+    background: #f8fafc;
+    color: #f97316;
+    border: 1px solid #cbd5e1;
+    border-radius: 7px;
+    font-size: 21px;
+    font-weight: bold;
+}
+#PlaylistTitle { color: #0f172a; font-size: 13px; font-weight: 700; }
+#PlaylistInfo { color: #334155; font-size: 12px; font-weight: 500; }
+#PlaylistPath { color: #64748b; font-size: 11px; }
+QToolTip {
+    background: #111827;
+    color: #ffffff;
+    border: 1px solid #475569;
+    border-radius: 6px;
+    padding: 6px;
+}
+
+/* v7 premium playlist improvements */
+#PlaylistPanel::item:hover {
+    background: #ff8800;
+    border: 1px solid #fb923c;
+    color: #ffffff;
+}
+#PlaylistPanel::item:selected {
+    background: #e65c00;
+    border: 1px solid #fb923c;
+    color: #ffffff;
+}
+#PlaylistPlayingIcon {
+    color: #e65c00;
+    font-size: 15px;
+    font-weight: 900;
+}
+#PlaylistCover {
+    font-size: 20px;
+}
+QPushButton:checked {
+    background: #f97316;
+    color: white;
+    border: 1px solid #ea580c;
+    font-weight: bold;
+}
+QMessageBox QPushButton {
+    min-width: 88px;
+    padding: 7px 12px;
+}

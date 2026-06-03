@@ -1,0 +1,238 @@
+QMainWindow, QWidget {
+    background: #0b0f17;
+    color: #f8fafc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+QMenuBar {
+    background: #111827;
+    color: #f8fafc;
+    padding: 4px 6px;
+    border-bottom: 1px solid #253041;
+}
+QMenuBar::item {
+    padding: 5px 8px;
+    border-radius: 6px;
+}
+QMenuBar::item:selected, QMenu::item:selected {
+    background: #f97316;
+    color: #111827;
+}
+QMenu {
+    background: #111827;
+    color: #f8fafc;
+    border: 1px solid #334155;
+    padding: 5px;
+}
+QMenu::item {
+    padding: 7px 24px 7px 10px;
+    border-radius: 6px;
+}
+QSplitter::handle {
+    background: #1f2937;
+    width: 4px;
+}
+QPushButton {
+    background: #1f2937;
+    color: #ffffff;
+    border: 1px solid #374151;
+    border-radius: 8px;
+    padding: 4px 8px;
+    font-weight: 600;
+}
+QPushButton:hover {
+    background: #263244;
+    border: 1px solid #f97316;
+}
+QPushButton:pressed {
+    background: #f97316;
+    color: #111827;
+}
+QPushButton:checked {
+    background: #f97316;
+    color: #111827;
+    border: 1px solid #ffb454;
+    font-weight: bold;
+}
+QComboBox {
+    background: #1f2937;
+    color: #ffffff;
+    border: 1px solid #374151;
+    border-radius: 7px;
+    padding: 4px 8px;
+}
+QLabel {
+    color: #e5e7eb;
+}
+QSlider::groove:horizontal {
+    height: 7px;
+    background: #283142;
+    border-radius: 3px;
+}
+QSlider::sub-page:horizontal {
+    background: #f97316;
+    border-radius: 3px;
+}
+QSlider::handle:horizontal {
+    background: #ffffff;
+    border: 1px solid #f97316;
+    width: 13px;
+    height: 13px;
+    margin: -4px 0;
+    border-radius: 7px;
+}
+QSlider::handle:horizontal:hover {
+    background: #ffedd5;
+}
+QStatusBar {
+    background: #111827;
+    color: #cbd5e1;
+}
+QToolTip {
+    background: #0f172a;
+    color: #ffffff;
+    border: 1px solid #f97316;
+    border-radius: 6px;
+    padding: 6px;
+    font-size: 12px;
+}
+QMessageBox, QDialog {
+    background: #111827;
+}
+QMessageBox QPushButton {
+    min-width: 88px;
+    padding: 7px 12px;
+}
+QLineEdit, QTreeWidget {
+    background: #111827;
+    color: #f8fafc;
+    border: 1px solid #334155;
+    border-radius: 8px;
+}
+
+#VideoWidget {
+    background: #020617;
+    border-radius: 14px;
+    border: 1px solid #1f2937;
+}
+#AudioArtworkOverlay {
+    background: qradialgradient(cx:0.50, cy:0.44, radius:0.78, fx:0.50, fy:0.44, stop:0 #1e3a5f, stop:0.45 #0f172a, stop:1 #020617);
+    border-radius: 14px;
+}
+#AudioCover {
+    background: #111827;
+    color: #f97316;
+    border: 1px solid #374151;
+    border-radius: 18px;
+    font-size: 118px;
+}
+#AudioTitle {
+    color: #f9fafb;
+    font-size: 18px;
+    font-weight: bold;
+}
+#AudioSubtitle {
+    color: #cbd5e1;
+    font-size: 14px;
+}
+
+#PlaylistPanel {
+    background: #0f172a;
+    border-left: 1px solid #283142;
+    padding: 7px;
+    outline: none;
+}
+#PlaylistPanel::item {
+    background: transparent;
+    border: none;
+    margin: 3px 2px;
+}
+#PlaylistPanel::item:selected {
+    background: transparent;
+    border: none;
+}
+#PlaylistRow {
+    background: #151c28;
+    border: 1px solid #263244;
+    border-radius: 10px;
+}
+#PlaylistRow[hovered="true"] {
+    background: #f97316;
+    border: 1px solid #ffb454;
+}
+#PlaylistRow[selected="true"] {
+    background: #d95f0e;
+    border: 1px solid #ffb454;
+}
+#PlaylistRow[playing="true"] {
+    background: #1f2937;
+    border: 1px solid #f97316;
+}
+#PlaylistRow[playing="true"][hovered="true"],
+#PlaylistRow[playing="true"][selected="true"] {
+    background: #f97316;
+    border: 1px solid #ffedd5;
+}
+#PlaylistCover {
+    background: #020617;
+    color: #f97316;
+    border: 1px solid #475569;
+    border-radius: 7px;
+    font-size: 21px;
+    font-weight: bold;
+}
+#PlaylistPlayingIcon {
+    color: #ffb454;
+    font-size: 15px;
+    font-weight: 900;
+}
+#PlaylistTitle {
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 800;
+}
+#PlaylistInfo {
+    color: #dbeafe;
+    font-size: 12px;
+    font-weight: 600;
+}
+#PlaylistPath {
+    color: #a7b3c7;
+    font-size: 11px;
+}
+#PlaylistRow[hovered="true"] #PlaylistTitle,
+#PlaylistRow[hovered="true"] #PlaylistInfo,
+#PlaylistRow[hovered="true"] #PlaylistPath,
+#PlaylistRow[selected="true"] #PlaylistTitle,
+#PlaylistRow[selected="true"] #PlaylistInfo,
+#PlaylistRow[selected="true"] #PlaylistPath {
+    color: #ffffff;
+}
+#PlaylistRow[playing="true"] #PlaylistTitle {
+    color: #ffb454;
+}
+#PlaylistRow[playing="true"] #PlaylistInfo {
+    color: #ffe0bd;
+}
+#PlaylistRow[playing="true"][hovered="true"] #PlaylistTitle,
+#PlaylistRow[playing="true"][selected="true"] #PlaylistTitle,
+#PlaylistRow[playing="true"][hovered="true"] #PlaylistInfo,
+#PlaylistRow[playing="true"][selected="true"] #PlaylistInfo {
+    color: #ffffff;
+}
+QScrollBar:vertical {
+    background: #0f172a;
+    width: 10px;
+    margin: 0;
+}
+QScrollBar::handle:vertical {
+    background: #374151;
+    min-height: 30px;
+    border-radius: 5px;
+}
+QScrollBar::handle:vertical:hover {
+    background: #f97316;
+}
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    height: 0;
+}
