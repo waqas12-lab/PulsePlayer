@@ -146,7 +146,7 @@ pyinstaller --noconfirm --windowed --name pulse-player main.py
 
 ## 📄 License
 
-This project is released under the MIT License.
+This project is released under the GPL-3.0 license.
 
 ---
 
